@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "roemannuko-resched_jd498"
+version = "0.1.0"
+description = "通过字符级与结构级特征识别训练资源调度工程师·注意力核��的访存瓶颈的痕迹，给出密度与命中位置"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "roemannuko" }]
+keywords = ["cli", "analysis", "observability", "evaluation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://roemannuko.github.io"
+Repository = "https://github.com/roemannuko/resched_jd498"
+Issues = "https://github.com/roemannuko/resched_jd498/issues"
+
+[project.scripts]
+resched_jd498 = "resched_jd498:main"
+
+[tool.setuptools]
+py-modules = ["resched_jd498"]

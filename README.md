@@ -1,11 +1,11 @@
-# resched_jd498
+# attention_kernel_bandwidth_signature_match
 
 **给训练资源调度工程师·注意力核��的访存瓶颈算一个特征指纹并定位可疑片段。**
 
-`resched_jd498` —— 通过字符级与结构级特征识别训练资源调度工程师·注意力核��的访存瓶颈的痕迹，给出密度与命中位置
+`attention_kernel_bandwidth_signature_match` —— 通过字符级与结构级特征识别训练资源调度工程师·注意力核��的访存瓶颈的痕迹，给出密度与命中位置
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`resched_jd498.py` 拷走就能用
+- 单文件，`attention_kernel_bandwidth_signature_match.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install roemannuko-resched_jd498
+pip install roemannuko-attention_kernel_bandwidth_signature_match
 ```
 
 装完直接用命令名调用：
 
 ```bash
-resched_jd498 --help
+attention_kernel_bandwidth_signature_match --help
 ```
 
-也可以不用安装，直接把 `resched_jd498.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `attention_kernel_bandwidth_signature_match.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ resched_jd498 --help
 ## 用法
 
 ```bash
-python resched_jd498.py --file input.txt
-python resched_jd498.py --text "示例内容"
-python resched_jd498.py --file input.txt --json
+python attention_kernel_bandwidth_signature_match.py --file input.txt
+python attention_kernel_bandwidth_signature_match.py --text "示例内容"
+python attention_kernel_bandwidth_signature_match.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python resched_jd498.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_resched_jd498.py
+python test_attention_kernel_bandwidth_signature_match.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_resched_jd498.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/roemannuko/resched_jd498>
+- GitHub 仓库：<https://github.com/roemannuko/attention_kernel_bandwidth_signature_match>
 
 ---
 
@@ -79,7 +79,7 @@ python test_resched_jd498.py
 roemannuko 做训练资源调度工程师·注意力核��的访存瓶颈相关的问题，方向对标英伟达的初级训练资源调度工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://roemannuko.github.io>
-- 仓库：<https://github.com/roemannuko/resched_jd498>
+- 仓库：<https://github.com/roemannuko/attention_kernel_bandwidth_signature_match>
 
 ## 许可
 

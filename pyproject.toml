@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "roemannuko-resched_jd498"
+name = "roemannuko-attention_kernel_bandwidth_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别训练资源调度工程师·注意力核��的访存瓶颈的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://roemannuko.github.io"
-Repository = "https://github.com/roemannuko/resched_jd498"
-Issues = "https://github.com/roemannuko/resched_jd498/issues"
+Repository = "https://github.com/roemannuko/attention_kernel_bandwidth_signature_match"
+Issues = "https://github.com/roemannuko/attention_kernel_bandwidth_signature_match/issues"
 
 [project.scripts]
-resched_jd498 = "resched_jd498:main"
+attention_kernel_bandwidth_signature_match = "attention_kernel_bandwidth_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["resched_jd498"]
+py-modules = ["attention_kernel_bandwidth_signature_match"]
